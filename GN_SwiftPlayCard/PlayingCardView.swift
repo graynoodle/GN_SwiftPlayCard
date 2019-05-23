@@ -8,6 +8,7 @@
 
 import UIKit
 
+// show in storyboard
 @IBDesignable
 class PlayingCardView: UIView {
     @IBInspectable
@@ -156,10 +157,7 @@ class PlayingCardView: UIView {
                 cardBackImage.draw(in: bounds)
             }
         }
-        
     }
-    
-
 }
 
 extension PlayingCardView {
